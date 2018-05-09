@@ -38,10 +38,12 @@ class AddTodoForm extends React.Component {
 
     render() {
         return (
+
             <form onSubmit={this.onFormSubmit.bind(this)}>
                 <input type="text" placeholder="Todo..." onChange={this.onMessageChanged.bind(this)} value={this.state.message} />
                 <input type="submit" value="Add" />
             </form>
+
         );
     }
 }
@@ -115,8 +117,8 @@ class TodoList extends React.Component {
 }
 //render, what is seen on screen
 ReactDOM.render(
-    <div >
-        <h1 className="appstuff">Todo</h1>
+    <div className={"gen"}>
+        <h1>Todo</h1>
         <app/>
         <AddTodoForm />
         <ClearItems/>

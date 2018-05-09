@@ -17,12 +17,17 @@ li{
 input[type=text]{
     text-align: center;
     left:50%;
-    width:80%;
+    width:400px;
     font-size: 18px;
     padding: 9px;
 }
 input[type=text]:focus {
   border: 2px solid #555;
+
+}
+.gen{
+    text-align: center;
+    left:50%;
 
 }
 .stuff{
