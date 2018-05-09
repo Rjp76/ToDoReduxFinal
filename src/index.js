@@ -5,7 +5,8 @@ import {addTodo} from "./actions";
 import {clearTodo} from "./actions";
 import {completeTodo} from "./actions";
 import {deleteTodo} from "./actions";
-import  todoApp from "./reducers"
+import  todoApp from "./reducers";
+import './index.css';
 
 
 //default state
