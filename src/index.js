@@ -115,8 +115,8 @@ class TodoList extends React.Component {
 }
 //render, what is seen on screen
 ReactDOM.render(
-    <div class="appstuff">
-        <h1>Todo</h1>
+    <div >
+        <h1 className="appstuff">Todo</h1>
         <app/>
         <AddTodoForm />
         <ClearItems/>

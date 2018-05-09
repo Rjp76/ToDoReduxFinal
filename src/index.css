@@ -18,11 +18,11 @@ input[type=text]{
     text-align: center;
     left:50%;
     width:80%;
-    font-size: 16px;
+    font-size: 18px;
     padding: 9px;
 }
 input[type=text]:focus {
-  border: 3px solid #555;
+  border: 2px solid #555;
 
 }
 .stuff{
@@ -45,4 +45,8 @@ button, input[type=submit]{
 
 body{
   background-color: lavender;
+}
+div{
+    left:50%;
+    margin:auto;
 }
