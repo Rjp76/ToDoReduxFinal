@@ -109,7 +109,7 @@ class TodoList extends React.Component {
         }
 
         return (
-            <ol>{ items }</ol>
+            <ol className="stuff">{ items }</ol>
         );
     }
 }
@@ -120,7 +120,7 @@ ReactDOM.render(
         <app/>
         <AddTodoForm />
         <ClearItems/>
-        <TodoList />
+        <TodoList/>
 
     </div>,
     document.getElementById('root')
