@@ -1,5 +1,6 @@
 li{
   font-weight: bold;
+    list-style-type: none;
 }
 #head{
   background-color:#9370db;
@@ -19,7 +20,7 @@ input[type=text]{
     left:50%;
     width:400px;
     font-size: 18px;
-    padding: 9px;
+    padding: 8px;
 }
 input[type=text]:focus {
   border: 2px solid #555;
@@ -33,13 +34,14 @@ input[type=text]:focus {
 .stuff{
     font-size: 30px;
     align:center;
+    list-style-type: none;
 }
 button, input[type=submit]{
   background-color: #9370db;
   width:125px;
   border: none;
   color: white;
-  padding: 10px 18px;
+  padding: 11px 18px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
